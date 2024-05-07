@@ -1,3 +1,4 @@
+package DesafioContaBancaria;
 import java.util.Scanner;
 
 public class ContaTerminal {
@@ -24,3 +25,4 @@ public class ContaTerminal {
         System.out.println("Olá ".concat(nomeCliente)+", obrigado por criar uma conta em nosso banco, sua agência é ".concat(agencia)+", conta "+ numero +" e seu saldo "+saldo+" já está disponível para saque.");
     }
 }
+ 
