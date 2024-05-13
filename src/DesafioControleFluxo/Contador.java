@@ -17,6 +17,7 @@ public class Contador {
     } catch (ParametrosInvalidosException e) {
       System.out.println("O segundo parâmetro deve ser maior que o primeiro" + e);
     }
+    scan.close();
   }
 
   static void contar(int n1, int n2) throws ParametrosInvalidosException {
@@ -28,5 +29,4 @@ public class Contador {
     }
     System.out.println("Quantidades de interações:" + interacao);
   }
-
 }
